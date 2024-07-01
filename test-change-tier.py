@@ -8,7 +8,7 @@ sns_client = boto3.client('sns')
 ec2 = boto3.client('ec2')
 
 # Set the SNS topic ARN
-sns_topic_arn = "arn:aws:sns:us-east-1:810941123870:test_isos_CloudWatch_Alarms_Topic"
+sns_topic_arn = "<replace with your SNS Topic ARN"
 
 # Get the current date in YYYY-MM-DD format
 currentDate = datetime.datetime.now().strftime("%Y-%m-%d")
