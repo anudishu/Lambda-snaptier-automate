@@ -11,8 +11,7 @@ ArchiveOn = Begindatestring + timedelta(days=14)
 # Replace with your SNS topic ARN
 sns_topic_arn = "<replace with your SNS Topic ARN"
 
-# Replace with your sender email address
-#sender_email = "lyfedge799@gmail.com"
+
 
 # Create SNS client
 client = boto3.client('ec2')
